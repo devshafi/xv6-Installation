@@ -22,7 +22,7 @@ XV6 is a simple and educational Unix-like operating system used in various compu
    ```bash
    git clone https://github.com/your-username/xv6-installation-guide.git
    
-##
+## Contributing
 
 Feel free to use this content in your README.md file. Adjustments can be made based on your specific project needs.
 
