@@ -1,1 +1,14 @@
+On Window 11 open certain folder. Left click the mouse and open terminal there. The command prompt will open. Then, type **wsl** there and Ubuntu will open.
+Now follow these these commands one by one to begin the installation.
 
+sudo apt-get update
+sudo apt-get install build-essential
+sudo apt-get install gcc-multilib
+sudo apt install qemu qemu-utils qemu-kvm virt-manager libvirt-daemon-system libvirt-clients bridge-utils
+sudo apt-get install git-core
+git clone https://github.com/mit-pdos/xv6-riscv.git
+cd xv6-public
+sudo make
+sudo make qemu-nox
+
+Note: for steps 8 and 9, sudo should be optional.
